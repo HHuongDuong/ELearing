@@ -1,8 +1,8 @@
-public class DictionaryCommandLine {
+public class DictionaryCommandline {
     private Dictionary dictionary;
     private DictionaryManagement dictionaryManagement;
 
-    public DictionaryCommandLine() {
+    public DictionaryCommandline() {
         dictionary = new Dictionary(100); // Initial capacity of the dictionary
         dictionaryManagement = new DictionaryManagement();
     }
